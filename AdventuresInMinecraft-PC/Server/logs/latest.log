@@ -1,102 +1,93 @@
-[19:13:13] [Server thread/INFO]: Starting minecraft server version 1.12
-[19:13:13] [Server thread/INFO]: Loading properties
-[19:13:13] [Server thread/INFO]: Default game type: CREATIVE
-[19:13:13] [Server thread/INFO]: Generating keypair
-[19:13:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:13:13] [Server thread/INFO]: Using default channel type
-[19:13:14] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[19:13:15] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[19:13:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:13:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:13:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:13:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:13:15] [Server thread/INFO]: Preparing level "world"
-[19:13:15] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6508423311135001331)
-[19:13:16] [Server thread/INFO]: Preparing spawn area: 34%
-[19:13:17] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6508423311135001331)
-[19:13:18] [Server thread/INFO]: Preparing spawn area: 92%
-[19:13:18] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6508423311135001331)
-[19:13:18] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[19:13:18] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[19:13:18] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[19:13:18] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[19:13:18] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[19:13:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:13:18] [Server thread/INFO]: Done (3,820s)! For help, type "help" or "?"
-[19:13:30] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
-[19:13:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51384.
-[19:13:30] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
-[19:13:30] [Server thread/WARN]: [RaspberryJuice] Error occured handling command
-[19:13:30] [Server thread/WARN]: java.lang.NullPointerException
-[19:13:30] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:253)
-[19:13:30] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:133)
-[19:13:30] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113)
-[19:13:30] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197)
-[19:13:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
-[19:13:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-[19:13:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689)
-[19:13:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366)
-[19:13:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650)
-[19:13:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554)
-[19:13:30] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[19:13:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51384.
-[19:13:39] [Server thread/INFO]: mbel[/127.0.0.1:51387] logged in with entity id 29 at ([world]162.70706922060344, 12.171990221303, 199.69999998807907)
-[19:13:46] [Server thread/INFO]: mbel lost connection: Disconnected
-[19:13:46] [Server thread/INFO]: mbel left the game
-[19:15:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51412.
-[19:15:12] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
-[19:15:12] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
-[19:15:12] [Server thread/WARN]: [RaspberryJuice] Error occured handling command
-[19:15:12] [Server thread/WARN]: java.lang.NullPointerException
-[19:15:12] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:253)
-[19:15:12] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:133)
-[19:15:12] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113)
-[19:15:12] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197)
-[19:15:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
-[19:15:12] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
-[19:15:12] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689)
-[19:15:12] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366)
-[19:15:12] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650)
-[19:15:12] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554)
-[19:15:12] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[19:15:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51412.
-[19:16:41] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51430.
-[19:16:41] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
-[19:16:41] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
-[19:16:41] [Server thread/INFO]: Hello, Minecraft![m
-[19:16:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51430.
-[19:17:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51441.
-[19:17:45] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
-[19:17:45] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
-[19:17:45] [Server thread/INFO]: [RaspberryJuice] Player [your_player_name] not found.
-[19:17:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51441.
-[19:17:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51445.
-[19:17:58] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
-[19:17:58] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
-[19:17:58] [Server thread/INFO]: [RaspberryJuice] Player [mbel] not found.
-[19:17:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51445.
-[19:18:05] [Server thread/INFO]: mbel[/127.0.0.1:51447] logged in with entity id 68 at ([world]162.70706922060344, 12.171990221303, 199.69999998807907)
-[19:18:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51449.
-[19:18:12] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
-[19:18:12] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
-[19:18:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51449.
-[19:18:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51451.
-[19:18:21] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
-[19:18:21] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
-[19:18:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51451.
-[19:19:48] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51476.
-[19:19:48] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
-[19:19:48] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
-[19:19:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51476.
-[19:20:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51477.
-[19:20:03] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
-[19:20:03] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
-[19:20:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51477.
-[19:20:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51483.
-[19:20:22] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
-[19:20:22] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
-[19:20:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51483.
-[19:21:50] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51530.
-[19:21:50] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
-[19:21:50] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
-[19:21:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51530.
+[20:10:39] [Server thread/INFO]: Starting minecraft server version 1.12
+[20:10:39] [Server thread/INFO]: Loading properties
+[20:10:39] [Server thread/INFO]: Default game type: CREATIVE
+[20:10:39] [Server thread/INFO]: Generating keypair
+[20:10:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:10:39] [Server thread/INFO]: Using default channel type
+[20:10:41] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[20:10:41] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[20:10:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:10:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:10:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:10:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:10:41] [Server thread/INFO]: Preparing level "world"
+[20:10:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6508423311135001331)
+[20:10:42] [Server thread/INFO]: Preparing spawn area: 20%
+[20:10:43] [Server thread/INFO]: Preparing spawn area: 89%
+[20:10:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6508423311135001331)
+[20:10:45] [Server thread/INFO]: Preparing spawn area: 90%
+[20:10:45] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6508423311135001331)
+[20:10:45] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[20:10:45] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[20:10:45] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[20:10:45] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[20:10:45] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[20:10:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:10:45] [Server thread/INFO]: Done (4,214s)! For help, type "help" or "?"
+[20:10:54] [Server thread/INFO]: mbel[/127.0.0.1:51997] logged in with entity id 28 at ([world]162.70706922060344, 12.171990221303, 199.69999998807907)
+[20:12:22] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[20:12:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52011.
+[20:12:22] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[20:12:22] [Server thread/INFO]: Keep up the good work![m
+[20:12:25] [Server thread/INFO]: You are amazing just the way you are![m
+[20:12:28] [Server thread/INFO]: Keep up the good work![m
+[20:12:31] [Server thread/INFO]: You are amazing just the way you are![m
+[20:12:34] [Server thread/INFO]: You're awesome![m
+[20:12:37] [Server thread/INFO]: You're awesome![m
+[20:12:40] [Server thread/INFO]: Believe in yourself![m
+[20:12:43] [Server thread/INFO]: You're doing great![m
+[20:12:46] [Server thread/INFO]: Believe in yourself![m
+[20:12:49] [Server thread/INFO]: Believe in yourself![m
+[20:12:52] [Server thread/INFO]: Believe in yourself![m
+[20:12:55] [Server thread/INFO]: Stay positive and happy![m
+[20:12:58] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[20:13:01] [Server thread/INFO]: You are amazing just the way you are![m
+[20:13:04] [Server thread/INFO]: You're awesome![m
+[20:13:07] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[20:13:10] [Server thread/INFO]: You are amazing just the way you are![m
+[20:13:13] [Server thread/INFO]: Believe in yourself![m
+[20:13:16] [Server thread/INFO]: Keep up the good work![m
+[20:13:19] [Server thread/INFO]: Keep up the good work![m
+[20:13:22] [Server thread/INFO]: Believe in yourself![m
+[20:13:25] [Server thread/INFO]: Believe in yourself![m
+[20:13:28] [Server thread/INFO]: You're doing great![m
+[20:13:31] [Server thread/INFO]: Believe in yourself![m
+[20:13:34] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[20:13:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52011.
+[20:26:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52210.
+[20:26:40] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[20:26:40] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[20:26:40] [Server thread/INFO]: Stay positive and happy![m
+[20:26:42] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[20:26:44] [Server thread/INFO]: You are amazing just the way you are![m
+[20:26:46] [Server thread/INFO]: Believe in yourself![m
+[20:26:48] [Server thread/INFO]: Keep up the good work![m
+[20:26:50] [Server thread/INFO]: Keep up the good work![m
+[20:26:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52210.
+[20:27:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52219.
+[20:27:15] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[20:27:15] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[20:27:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52219.
+[20:54:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52584.
+[20:54:39] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[20:54:39] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[20:54:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52585.
+[20:54:39] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[20:54:39] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[20:54:39] [Server thread/INFO]: Keep up the good work![m
+[20:54:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52584.
+[20:54:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52585.
+[20:56:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52606.
+[20:56:02] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[20:56:02] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[20:56:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52607.
+[20:56:02] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[20:56:02] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[20:56:02] [Server thread/INFO]: Stay positive and happy![m
+[20:56:09] [Server thread/INFO]: Stay positive and happy![m
+[20:56:16] [Server thread/INFO]: You're doing great![m
+[20:56:23] [Server thread/INFO]: You are amazing just the way you are![m
+[20:56:30] [Server thread/INFO]: Keep up the good work![m
+[20:56:37] [Server thread/INFO]: Keep up the good work![m
+[20:56:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52606.
+[20:56:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52607.

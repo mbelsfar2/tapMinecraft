@@ -1,7 +1,7 @@
 import mcpi.minecraft as minecraft
 import mcpi.block as block
 
-class BaseAgent:
+class MinecraftAgent:
     def __init__(self, address="localhost", port=4711):
         self.mc = minecraft.Minecraft.create(address, port)
 
