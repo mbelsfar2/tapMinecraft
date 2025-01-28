@@ -17,3 +17,4 @@ class TNTBot(BaseAgent):
         self.place_tnt(x, y, z)
         time.sleep(5)
         self.detonate_tnt(x, y, z)
+        

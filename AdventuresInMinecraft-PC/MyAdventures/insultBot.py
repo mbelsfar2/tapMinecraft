@@ -2,10 +2,12 @@ from agentFramework import BaseAgent
 
 import random
 
+def get_random_message(messages):
+    return random.choice(messages)
+
 class InsultBot(BaseAgent):
-    def __init__(self, address="localhost", port=4711):
-        super().__init__(address, port)
-        self.messages = [
+    def perform_action(self):
+        list = [
             "You're doing great!",
             "Keep up the good work!",
             "You're awesome!",
@@ -14,7 +16,5 @@ class InsultBot(BaseAgent):
             "You are amazing just the way you are!",
             "Keep smiling, the world needs your light!"
         ]
-
-    def perform_action(self):
-        message = random.choice(self.messages)
+        message = get_random_message(list)
         self.mc.postToChat(message)
