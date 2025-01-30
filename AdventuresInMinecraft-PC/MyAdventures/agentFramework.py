@@ -1,5 +1,6 @@
 import time
 import mcpi.minecraft as minecraft
+import importlib
 
 class AgentFramework:
     def __init__(self):
@@ -17,6 +18,14 @@ class AgentFramework:
             for agent in self.agents:
                 agent.perform_action()
             time.sleep(2)  # Ajusta el intervalo según sea necesario
+
+    def register_agents_from_module(self, module_name):
+        # Importa el módulo y registra todas las clases que heredan de BaseAgent
+        module = importlib.import_module(module_name)
+        for name in dir(module):
+            obj = getattr(module, name)
+            if isinstance(obj, type) and issubclass(obj, BaseAgent) and obj is not BaseAgent:
+                self.register_agent(obj)
 
 class BaseAgent:
     def __init__(self, address="localhost", port=4711):
