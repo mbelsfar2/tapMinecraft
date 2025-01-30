@@ -1,8 +1,8 @@
-# Documentación del Marco de Agentes
+# Documentación de Agent Framework
 
 ## Introducción
 
-Este marco permite a los usuarios crear y gestionar agentes que interactúan con un servidor de Minecraft. Proporciona una clase base para los agentes y un mecanismo para registrarlos y ejecutarlos.
+Este Agent Framework permite a los usuarios crear y gestionar agentes que interactúan con un servidor de Minecraft. Proporciona una clase base para los agentes y un mecanismo para registrarlos y ejecutarlos.
 
 ## Creación de un Agente
 
@@ -25,8 +25,8 @@ Para crear un nuevo agente, sigue estos pasos:
            self.place_block(pos.x + 1, pos.y, pos.z, 1)  # Acción de ejemplo
    ```
 
-2. **Registrar el agente en el marco:**  
-   Crea una instancia de `AgentFramework`, registra tu agente y ejecuta el marco.
+2. **Registrar el agente en el Agent Framework:**  
+   Crea una instancia de `AgentFramework`, registra tu agente y ejecuta el Agent Framework.
 
    ```python
    from agentFramework import AgentFramework
