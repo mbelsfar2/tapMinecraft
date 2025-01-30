@@ -25,5 +25,8 @@ class OracleBot(BaseAgent):
         
         for message in messages:
             if "oraclebot" in message.message.lower():
-                answer =get_random_message(list)  # Pure function call
+                    # Extrae la pregunta y obtiene una respuesta de OpenAI
+                answer =get_random_message(list)  
+                        # Envía la respuesta al chat
+
                 self.mc.postToChat(f"<oracleBot> {answer}")

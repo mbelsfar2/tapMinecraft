@@ -7,6 +7,7 @@ def get_random_message(messages):
 
 class InsultBot(BaseAgent):
     def perform_action(self):
+            # Lista de mensajes
         list = [
             "You're doing great!",
             "Keep up the good work!",
@@ -16,5 +17,6 @@ class InsultBot(BaseAgent):
             "You are amazing just the way you are!",
             "Keep smiling, the world needs your light!"
         ]
+        # Elige un mensaje al azar y lo envía al chat
         message = get_random_message(list)
         self.mc.postToChat(message)
