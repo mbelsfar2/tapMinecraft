@@ -10,6 +10,6 @@ if __name__ == "__main__":
     # Registra los agentes
     framework.register_agent(InsultBot)
     framework.register_agent(TNTBot)
-    framework.register_agent(OracleBot, api_key="your_openai_api_key")
+    framework.register_agent(OracleBot)
     # Ejecuta el framework
     framework.run()

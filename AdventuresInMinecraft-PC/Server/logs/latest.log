@@ -1,108 +1,188 @@
-[00:03:08] [Server thread/INFO]: mbel lost connection: Disconnected
-[00:03:09] [Server thread/INFO]: mbel left the game
-[00:03:19] [Server thread/INFO]: mbel[/127.0.0.1:55192] logged in with entity id 131 at ([world]150.11938976048992, 21.200000047683716, 200.69999998807907)
-[00:03:25] [Server thread/INFO]: mbel lost connection: Disconnected
-[00:03:25] [Server thread/INFO]: mbel left the game
-[00:03:33] [Server thread/INFO]: mbel[/127.0.0.1:55195] logged in with entity id 143 at ([world]150.11938976048992, 21.200000047683716, 200.69999998807907)
-[00:05:08] [Server thread/INFO]: mbel has made the advancement [Isn't It Iron Pick]
-[00:07:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55237.
-[00:07:59] [Thread-88/INFO]: [RaspberryJuice] Starting output thread!
-[00:07:59] [Thread-87/INFO]: [RaspberryJuice] Starting input thread
-[00:07:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55238.
-[00:07:59] [Thread-89/INFO]: [RaspberryJuice] Starting input thread
-[00:07:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55239.
-[00:07:59] [Thread-90/INFO]: [RaspberryJuice] Starting output thread!
-[00:07:59] [Thread-91/INFO]: [RaspberryJuice] Starting input thread
-[00:07:59] [Thread-92/INFO]: [RaspberryJuice] Starting output thread!
-[00:07:59] [Server thread/INFO]: Keep smiling, the world needs your light![m
-[00:08:06] [Server thread/INFO]: You're awesome![m
-[00:08:13] [Server thread/INFO]: Keep smiling, the world needs your light![m
-[00:08:20] [Server thread/INFO]: You're doing great![m
-[00:08:27] [Server thread/INFO]: You are amazing just the way you are![m
-[00:08:35] [Server thread/INFO]: Stay positive and happy![m
-[00:08:42] [Server thread/INFO]: Stay positive and happy![m
-[00:08:49] [Server thread/INFO]: You're doing great![m
-[00:08:49] [Netty Server IO #7/INFO]: <mbel> hey oraclebot can yo help me with soething[m
-[00:08:54] [Server thread/INFO]: <oracleBot> Ask again later.[m
-[00:08:56] [Server thread/INFO]: Believe in yourself![m
-[00:09:03] [Server thread/INFO]: Stay positive and happy![m
-[00:09:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55237.
-[00:09:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55238.
-[00:09:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55239.
-[00:26:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55467.
-[00:26:05] [Thread-94/INFO]: [RaspberryJuice] Starting output thread!
-[00:26:05] [Thread-93/INFO]: [RaspberryJuice] Starting input thread
-[00:26:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55468.
-[00:26:05] [Thread-95/INFO]: [RaspberryJuice] Starting input thread
-[00:26:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55469.
-[00:26:05] [Thread-96/INFO]: [RaspberryJuice] Starting output thread!
-[00:26:05] [Thread-97/INFO]: [RaspberryJuice] Starting input thread
-[00:26:05] [Thread-98/INFO]: [RaspberryJuice] Starting output thread!
-[00:26:05] [Server thread/INFO]: Keep up the good work![m
-[00:26:12] [Server thread/INFO]: You are amazing just the way you are![m
-[00:26:19] [Server thread/INFO]: You're doing great![m
-[00:26:19] [Netty Server IO #7/INFO]: <mbel> oraclebot o[m
-[00:26:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55467.
-[00:26:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55468.
-[00:26:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55469.
-[00:27:26] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55490.
-[00:27:26] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55491.
-[00:27:26] [Thread-99/INFO]: [RaspberryJuice] Starting input thread
-[00:27:26] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55492.
-[00:27:26] [Thread-101/INFO]: [RaspberryJuice] Starting input thread
-[00:27:26] [Thread-102/INFO]: [RaspberryJuice] Starting output thread!
-[00:27:26] [Thread-100/INFO]: [RaspberryJuice] Starting output thread!
-[00:27:26] [Thread-103/INFO]: [RaspberryJuice] Starting input thread
-[00:27:26] [Thread-104/INFO]: [RaspberryJuice] Starting output thread!
-[00:27:26] [Server thread/INFO]: You're doing great![m
-[00:27:29] [Netty Server IO #7/INFO]: <mbel> oraclebot o[m
-[00:27:31] [Server thread/INFO]: <oracleBot> Without a doubt.[m
-[00:27:33] [Server thread/INFO]: Believe in yourself![m
-[00:27:35] [Netty Server IO #7/INFO]: <mbel> oraclebot o[m
-[00:27:39] [Server thread/INFO]: <oracleBot> It is possible.[m
-[00:27:41] [Server thread/INFO]: Keep up the good work![m
-[00:27:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55490.
-[00:27:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55491.
-[00:27:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55492.
-[00:28:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55498.
-[00:28:38] [Thread-105/INFO]: [RaspberryJuice] Starting input thread
-[00:28:38] [Thread-106/INFO]: [RaspberryJuice] Starting output thread!
-[00:28:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55499.
-[00:28:38] [Thread-107/INFO]: [RaspberryJuice] Starting input thread
-[00:28:38] [Thread-108/INFO]: [RaspberryJuice] Starting output thread!
-[00:28:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55500.
-[00:28:38] [Thread-109/INFO]: [RaspberryJuice] Starting input thread
-[00:28:38] [Thread-110/INFO]: [RaspberryJuice] Starting output thread!
-[00:28:38] [Server thread/INFO]: You're doing great![m
-[00:28:46] [Server thread/INFO]: You're doing great![m
-[00:28:53] [Server thread/INFO]: Keep smiling, the world needs your light![m
-[00:29:00] [Server thread/INFO]: Stay positive and happy![m
-[00:29:01] [Netty Server IO #7/INFO]: <mbel> hey oraclebot can yo help me with soething[m
-[00:29:05] [Server thread/INFO]: <oracleBot> I'm not sure.[m
-[00:29:07] [Server thread/INFO]: Keep smiling, the world needs your light![m
-[00:29:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55498.
-[00:29:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55499.
-[00:29:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55500.
-[00:33:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55565.
-[00:33:36] [Thread-111/INFO]: [RaspberryJuice] Starting input thread
-[00:33:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55566.
-[00:33:36] [Thread-112/INFO]: [RaspberryJuice] Starting output thread!
-[00:33:36] [Thread-113/INFO]: [RaspberryJuice] Starting input thread
-[00:33:36] [Thread-114/INFO]: [RaspberryJuice] Starting output thread!
-[00:33:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55567.
-[00:33:36] [Thread-115/INFO]: [RaspberryJuice] Starting input thread
-[00:33:36] [Thread-116/INFO]: [RaspberryJuice] Starting output thread!
-[00:33:36] [Server thread/INFO]: Keep smiling, the world needs your light![m
-[00:33:43] [Server thread/INFO]: Stay positive and happy![m
-[00:33:48] [Netty Server IO #7/INFO]: <mbel> hey oraclebot can yo help me with soething[m
-[00:33:50] [Server thread/INFO]: Keep smiling, the world needs your light![m
-[00:33:57] [Server thread/INFO]: Believe in yourself![m
-[00:34:03] [Netty Server IO #7/INFO]: <mbel> hey oraclebot can yo help me with soething[m
-[00:34:04] [Server thread/INFO]: Believe in yourself![m
-[00:34:11] [Server thread/INFO]: Keep up the good work![m
-[00:34:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55565.
-[00:34:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55566.
-[00:34:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55567.
-[13:45:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 46759955ms behind, skipping 935199 tick(s)
-[13:45:20] [Server thread/INFO]: mbel lost connection: Timed out
-[13:45:20] [Server thread/INFO]: mbel left the game
+[16:14:32] [Server thread/INFO]: Loading properties
+[16:14:32] [Server thread/INFO]: Default game type: CREATIVE
+[16:14:32] [Server thread/INFO]: Generating keypair
+[16:14:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:14:33] [Server thread/INFO]: Using default channel type
+[16:14:34] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[16:14:34] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[16:14:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:14:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:14:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:14:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:14:34] [Server thread/INFO]: Preparing level "world"
+[16:14:35] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6508423311135001331)
+[16:14:36] [Server thread/INFO]: Preparing spawn area: 23%
+[16:14:37] [Server thread/INFO]: Preparing spawn area: 93%
+[16:14:37] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6508423311135001331)
+[16:14:38] [Server thread/INFO]: Preparing spawn area: 58%
+[16:14:39] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6508423311135001331)
+[16:14:39] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[16:14:39] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[16:14:39] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[16:14:39] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[16:14:39] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[16:14:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:14:39] [Server thread/INFO]: Done (5,111s)! For help, type "help" or "?"
+[16:15:21] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[16:15:21] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[16:15:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59946.
+[16:15:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59947.
+[16:15:21] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[16:15:21] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[16:15:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59946.
+[16:15:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59947.
+[16:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59952.
+[16:16:00] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:00] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[16:16:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59953.
+[16:16:00] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:00] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[16:16:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59952.
+[16:16:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59953.
+[16:16:08] [Server thread/INFO]: mbel[/127.0.0.1:59988] logged in with entity id 19 at ([world]161.6875870871135, 71.0, 261.5128400218697)
+[16:16:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59991.
+[16:16:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59992.
+[16:16:14] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:14] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[16:16:14] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[16:16:14] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59991.
+[16:16:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59992.
+[16:16:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59993.
+[16:16:17] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[16:16:17] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59994.
+[16:16:17] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:17] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:17] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[16:16:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59993.
+[16:16:17] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59994.
+[16:16:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60002.
+[16:16:52] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[16:16:52] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60003.
+[16:16:52] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
+[16:16:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60004.
+[16:16:52] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:52] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[16:16:52] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[16:16:52] [Server thread/INFO]: You are amazing just the way you are![m
+[16:16:59] [Server thread/INFO]: Believe in yourself![m
+[16:17:06] [Server thread/INFO]: You are amazing just the way you are![m
+[16:17:13] [Server thread/INFO]: You're awesome![m
+[16:17:20] [Server thread/INFO]: Stay positive and happy![m
+[16:17:27] [Server thread/INFO]: Keep up the good work![m
+[16:17:34] [Server thread/INFO]: Stay positive and happy![m
+[16:17:41] [Server thread/INFO]: You're awesome![m
+[16:17:49] [Server thread/INFO]: Stay positive and happy![m
+[16:17:56] [Server thread/INFO]: You're awesome![m
+[16:18:03] [Server thread/INFO]: You're doing great![m
+[16:18:10] [Server thread/INFO]: You are amazing just the way you are![m
+[16:18:17] [Server thread/INFO]: Believe in yourself![m
+[16:18:24] [Server thread/INFO]: Believe in yourself![m
+[16:18:31] [Server thread/INFO]: Keep up the good work![m
+[16:18:38] [Server thread/INFO]: You're doing great![m
+[16:18:45] [Server thread/INFO]: Stay positive and happy![m
+[16:18:52] [Server thread/INFO]: Keep up the good work![m
+[16:19:00] [Server thread/INFO]: You are amazing just the way you are![m
+[16:19:07] [Server thread/INFO]: Keep up the good work![m
+[16:19:14] [Server thread/INFO]: You're awesome![m
+[16:19:21] [Server thread/INFO]: You are amazing just the way you are![m
+[16:19:28] [Server thread/INFO]: You're doing great![m
+[16:19:35] [Server thread/INFO]: You're doing great![m
+[16:19:42] [Server thread/INFO]: You're awesome![m
+[16:19:49] [Server thread/INFO]: You're doing great![m
+[16:19:56] [Server thread/INFO]: Stay positive and happy![m
+[16:20:03] [Server thread/INFO]: Believe in yourself![m
+[16:20:11] [Server thread/INFO]: Stay positive and happy![m
+[16:20:18] [Server thread/INFO]: Keep up the good work![m
+[16:20:25] [Server thread/INFO]: Stay positive and happy![m
+[16:20:32] [Server thread/INFO]: You are amazing just the way you are![m
+[16:20:39] [Server thread/INFO]: Keep up the good work![m
+[16:20:46] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[16:20:53] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[16:21:00] [Server thread/INFO]: You're awesome![m
+[16:21:07] [Server thread/INFO]: Believe in yourself![m
+[16:21:14] [Server thread/INFO]: You are amazing just the way you are![m
+[16:21:22] [Server thread/INFO]: Believe in yourself![m
+[16:21:29] [Server thread/INFO]: You're doing great![m
+[16:21:36] [Server thread/INFO]: Keep up the good work![m
+[16:21:43] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[16:21:50] [Server thread/INFO]: You are amazing just the way you are![m
+[16:21:57] [Server thread/INFO]: Stay positive and happy![m
+[16:22:04] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[16:22:11] [Server thread/INFO]: You're awesome![m
+[16:22:18] [Server thread/INFO]: Believe in yourself![m
+[16:22:25] [Server thread/INFO]: You are amazing just the way you are![m
+[16:22:33] [Server thread/INFO]: Stay positive and happy![m
+[16:22:40] [Server thread/INFO]: Stay positive and happy![m
+[16:22:47] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[16:22:54] [Server thread/INFO]: Keep up the good work![m
+[16:23:01] [Server thread/INFO]: You're awesome![m
+[16:23:08] [Server thread/INFO]: You're doing great![m
+[16:23:15] [Server thread/INFO]: You are amazing just the way you are![m
+[16:23:22] [Server thread/INFO]: Stay positive and happy![m
+[16:23:29] [Server thread/INFO]: You're doing great![m
+[16:23:36] [Server thread/INFO]: You're doing great![m
+[16:23:44] [Server thread/INFO]: You are amazing just the way you are![m
+[16:23:51] [Server thread/INFO]: You're awesome![m
+[16:23:58] [Server thread/INFO]: Keep up the good work![m
+[16:24:05] [Server thread/INFO]: Keep up the good work![m
+[16:24:12] [Server thread/INFO]: You're doing great![m
+[16:24:19] [Server thread/INFO]: Believe in yourself![m
+[16:24:26] [Server thread/INFO]: You're doing great![m
+[16:24:33] [Server thread/INFO]: You're doing great![m
+[16:24:40] [Server thread/INFO]: Keep up the good work![m
+[16:24:47] [Server thread/INFO]: Stay positive and happy![m
+[16:24:55] [Server thread/INFO]: Stay positive and happy![m
+[16:25:02] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[16:25:09] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[16:25:16] [Server thread/INFO]: Keep up the good work![m
+[16:25:23] [Server thread/INFO]: You're awesome![m
+[16:25:30] [Server thread/INFO]: Keep up the good work![m
+[16:25:37] [Server thread/INFO]: You're awesome![m
+[16:25:44] [Server thread/INFO]: Believe in yourself![m
+[16:25:51] [Server thread/INFO]: Stay positive and happy![m
+[16:25:58] [Server thread/INFO]: Keep up the good work![m
+[16:26:06] [Server thread/INFO]: Keep up the good work![m
+[16:26:13] [Server thread/INFO]: Keep smiling, the world needs your light![m
+[16:26:20] [Server thread/INFO]: Stay positive and happy![m
+[16:26:27] [Server thread/INFO]: Stay positive and happy![m
+[16:26:34] [Server thread/INFO]: You're doing great![m
+[16:26:41] [Server thread/INFO]: You're awesome![m
+[16:26:48] [Server thread/INFO]: Believe in yourself![m
+[16:26:55] [Server thread/INFO]: Keep up the good work![m
+[16:27:02] [Server thread/INFO]: Stay positive and happy![m
+[16:27:09] [Server thread/INFO]: Believe in yourself![m
+[16:27:17] [Server thread/INFO]: You are amazing just the way you are![m
+[16:27:24] [Server thread/INFO]: Keep up the good work![m
+[16:27:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60002.
+[16:27:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60003.
+[16:27:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60004.
+[16:37:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60273.
+[16:37:02] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
+[16:37:02] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
+[16:37:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60274.
+[16:37:02] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
+[16:37:02] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
+[16:37:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60275.
+[16:37:02] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
+[16:37:02] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
+[16:37:02] [Server thread/INFO]: You are amazing just the way you are![m
+[16:37:09] [Server thread/INFO]: Stay positive and happy![m
+[16:37:16] [Server thread/INFO]: You're doing great![m
+[16:37:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60273.
+[16:37:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60274.
+[16:37:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60275.
+[17:02:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60562.
+[17:02:28] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
+[17:02:28] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
+[17:02:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60563.
+[17:02:28] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
+[17:02:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60564.
+[17:02:28] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
+[17:02:28] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
+[17:02:28] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
+[17:02:28] [Server thread/INFO]: Believe in yourself![m
+[17:02:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60562.
+[17:02:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60563.
+[17:02:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60564.
