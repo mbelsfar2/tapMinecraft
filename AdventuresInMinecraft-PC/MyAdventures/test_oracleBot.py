@@ -30,11 +30,14 @@ class TestOracleBot(unittest.TestCase):
         # Mock de mensajes de chat vacíos
         self.bot.mc.events.pollChatPosts.return_value = []
         
+        # Resetea el mock antes de ejecutar la acción del bot
+        self.bot.mc.postToChat.reset_mock()
+        
         # Ejecuta la acción del bot
         self.bot.perform_action()
         
         # Verifica que no se publicó ninguna respuesta en el chat
-        assert not self.bot.mc.postToChat.called
+        self.bot.mc.postToChat.assert_not_called()
 
     def test_handle_multiple_messages(self):
         # Mock de múltiples mensajes de chat entrantes
