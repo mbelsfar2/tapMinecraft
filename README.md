@@ -1,5 +1,5 @@
-[![Coverage](https://codecov.io/gh/mbelsfar2/tapMinecraft/graph/badge.svg?token=RIMDSLHTTD)](https://codecov.io/gh/mbelsfar2/tapMinecraft)
-[![Tests](https://github.com/mbelsfar2/tapMinecraft/actions/workflows/test.yml/badge.svg)](https://github.com/mbelsfar2/tapMinecraft/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/mbelsfar2/tapMinecraft/graph/badge.svg?token=RIMDSLHTTD)](https://codecov.io/gh/mbelsfar2/tapMinecraft)
+[![Run tests and upload coverage](https://github.com/mbelsfar2/tapMinecraft/actions/workflows/test.yml/badge.svg)](https://github.com/mbelsfar2/tapMinecraft/actions/workflows/test.yml)
 
 # Documentación de Agent Framework
 
