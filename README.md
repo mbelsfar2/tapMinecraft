@@ -91,6 +91,97 @@ Para crear un nuevo agente, sigue estos pasos:
   - Ejecuta continuamente el método `perform_action` de cada agente registrado.  
   - **Nota:** Ajusta el intervalo de espera según sea necesario.
 
+## Capacidades Dinámicas en el Agent Framework
+
+El Agent Framework también permite la creación dinámica y la gestión de agentes en tiempo de ejecución. Esto significa que puedes agregar, eliminar o modificar agentes mientras el framework está en ejecución.
+
+### Ejemplo de Creación Dinámica de Agentes
+
+Puedes crear y registrar nuevos agentes dinámicamente utilizando el método `register_agent` del `AgentFramework`.
+
+```python
+from agentFramework import AgentFramework
+from miAgente import MiAgente
+
+framework = AgentFramework()
+
+# Crear y registrar un nuevo agente dinámicamente
+nuevo_agente = MiAgente("localhost", 4711)
+framework.register_agent(nuevo_agente)
+
+# Ejecutar el framework
+framework.run()
+```
+
+### Ejemplo de Eliminación Dinámica de Agentes
+
+Puedes eliminar agentes dinámicamente utilizando un método personalizado que elimine el agente de la lista de agentes registrados.
+
+```python
+class AgentFramework:
+    # ...existing code...
+
+    def unregister_agent(self, agent):
+        self.agents.remove(agent)
+
+# Uso del método de eliminación dinámica
+framework = AgentFramework()
+mi_agente = MiAgente("localhost", 4711)
+framework.register_agent(mi_agente)
+
+# Eliminar el agente dinámicamente
+framework.unregister_agent(mi_agente)
+```
+
+## Programación Funcional en el Agent Framework
+
+El Agent Framework soporta programación funcional permitiendo el uso de funciones de orden superior y funciones anónimas (lambdas) para definir el comportamiento de los agentes.
+
+### Ejemplo de Programación Funcional
+
+Puedes definir acciones de los agentes utilizando funciones anónimas.
+
+```python
+from agentFramework import BaseAgent
+
+class MiAgenteFuncional(BaseAgent):
+    def __init__(self, address="localhost", port=4711):
+        super().__init__(address, port)
+        self.action = lambda: self.place_block(self.get_position().x + 1, self.get_position().y, self.get_position().z, 1)
+
+    def perform_action(self):
+        self.action()
+```
+
+### Dónde se Usa la Programación Funcional
+
+La programación funcional se utiliza en el Agent Framework para definir comportamientos de agentes de manera flexible y reutilizable. Al permitir el uso de funciones anónimas y de orden superior, los desarrolladores pueden crear agentes con comportamientos complejos sin necesidad de definir múltiples clases.
+
+## Programación Reflectiva en el Agent Framework
+
+El Agent Framework permite la programación reflectiva, lo que significa que puedes inspeccionar y modificar el comportamiento de los agentes en tiempo de ejecución.
+
+### Ejemplo de Programación Reflectiva
+
+Puedes utilizar la reflexión para modificar dinámicamente los métodos de los agentes.
+
+```python
+from agentFramework import BaseAgent
+
+class MiAgenteReflectivo(BaseAgent):
+    def __init__(self, address="localhost", port=4711):
+        super().__init__(address, port)
+
+    def perform_action(self):
+        pos = self.get_position()
+        self.place_block(pos.x + 1, pos.y, pos.z, 1)
+
+# Modificar dinámicamente el método perform_action
+mi_agente = MiAgenteReflectivo("localhost", 4711)
+mi_agente.perform_action = lambda: print("Acción modificada dinámicamente")
+mi_agente.perform_action()
+```
+
 ## UML Diagrams
 
 ### Class Diagram
