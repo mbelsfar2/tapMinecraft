@@ -12,12 +12,12 @@ class TestInsultBot(unittest.TestCase):
     def test_get_random_message(self):
         # Prueba la función que obtiene un mensaje aleatorio
         messages = ["Hello", "Hi", "Hey"]
-        self.assertIn(get_random_message(messages), messages)
+        assert get_random_message(messages) in messages
 
     def test_perform_action(self):
         # Ejecuta la acción del bot y verifica si se publicó un mensaje en el chat
         self.bot.perform_action()
-        self.bot.mc.postToChat.assert_called()
+        assert self.bot.mc.postToChat.called
 
 if __name__ == "__main__":
     unittest.main()

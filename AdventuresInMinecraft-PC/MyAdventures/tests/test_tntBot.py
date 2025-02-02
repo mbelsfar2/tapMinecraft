@@ -13,12 +13,14 @@ class TestTNTBot(unittest.TestCase):
     def test_place_tnt(self):
         # Prueba la colocación de TNT
         self.bot.place_tnt(1, 2, 3)
-        self.bot.mc.setBlock.assert_called_with(1, 2, 3, block.TNT.id)
+        assert self.bot.mc.setBlock.called
+        assert self.bot.mc.setBlock.call_args[0] == (1, 2, 3, block.TNT.id)
 
     def test_detonate_tnt(self):
         # Prueba la detonación de TNT
         self.bot.detonate_tnt(4, 5, 6)
-        self.bot.mc.setBlock.assert_called_with(4, 5, 6, block.FIRE.id)
+        assert self.bot.mc.setBlock.called
+        assert self.bot.mc.setBlock.call_args[0] == (4, 5, 6, block.FIRE.id)
 
     @patch("time.sleep", return_value=None)  # Mock sleep para acelerar las pruebas
     def test_deploy_and_detonate_tnt(self, mock_sleep):
@@ -27,9 +29,11 @@ class TestTNTBot(unittest.TestCase):
         
         self.bot.deploy_and_detonate_tnt(7, 8, 9)
         
-        self.bot.apply_to_coordinates.assert_any_call(self.bot.place_tnt, 7, 8, 9)
-        mock_sleep.assert_called_with(5)
-        self.bot.apply_to_coordinates.assert_any_call(self.bot.detonate_tnt, 7, 8, 9)
+        assert self.bot.apply_to_coordinates.call_count == 2
+        assert mock_sleep.called
+        assert mock_sleep.call_args[0] == (5,)
+        assert self.bot.apply_to_coordinates.call_args_list[0][0] == (self.bot.place_tnt, 7, 8, 9)
+        assert self.bot.apply_to_coordinates.call_args_list[1][0] == (self.bot.detonate_tnt, 7, 8, 9)
 
 if __name__ == "__main__":
     unittest.main()

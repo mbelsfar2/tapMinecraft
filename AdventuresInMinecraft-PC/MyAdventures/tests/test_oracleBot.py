@@ -12,7 +12,7 @@ class TestOracleBot(unittest.TestCase):
     def test_get_random_message(self):
         # Prueba la función que obtiene un mensaje aleatorio
         messages = ["Yes", "No", "Maybe"]
-        self.assertIn(get_random_message(messages), messages)
+        assert get_random_message(messages) in messages
 
     def test_perform_action(self):
         # Mock de mensajes de chat entrantes
@@ -24,7 +24,7 @@ class TestOracleBot(unittest.TestCase):
         self.bot.perform_action()
         
         # Verifica si se publicó una respuesta en el chat
-        self.bot.mc.postToChat.assert_called()
+        assert self.bot.mc.postToChat.called
 
 if __name__ == "__main__":
     unittest.main()

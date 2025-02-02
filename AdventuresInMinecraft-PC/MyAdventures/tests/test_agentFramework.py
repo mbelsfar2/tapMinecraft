@@ -13,7 +13,8 @@ class TestBaseAgent(unittest.TestCase):
     def test_place_block(self):
         # Prueba la colocación de un bloque
         self.agent.place_block(1, 2, 3, 4)
-        self.mock_mc.setBlock.assert_called_with(1, 2, 3, 4)
+        assert self.mock_mc.setBlock.called
+        assert self.mock_mc.setBlock.call_args[0] == (1, 2, 3, 4)
 
     def test_get_position(self):
         # Prueba la obtención de la posición del jugador
@@ -21,12 +22,13 @@ class TestBaseAgent(unittest.TestCase):
         mock_pos.x, mock_pos.y, mock_pos.z = 10, 20, 30
         self.mock_mc.player.getTilePos.return_value = mock_pos
         position = self.agent.get_position()
-        self.assertEqual((position.x, position.y, position.z), (10, 20, 30))
+        assert (position.x, position.y, position.z) == (10, 20, 30)
 
     def test_move_to(self):
         # Prueba el movimiento del jugador a una nueva posición
         self.agent.move_to(5, 10, 15)
-        self.mock_mc.player.setTilePos.assert_called_with(5, 10, 15)
+        assert self.mock_mc.player.setTilePos.called
+        assert self.mock_mc.player.setTilePos.call_args[0] == (5, 10, 15)
 
 class TestAgentFramework(unittest.TestCase):
     def test_register_agent(self):
@@ -34,7 +36,7 @@ class TestAgentFramework(unittest.TestCase):
         framework = AgentFramework()
         mock_agent = MagicMock()
         framework.register_agent(lambda: mock_agent)
-        self.assertIn(mock_agent, framework.agents)
+        assert mock_agent in framework.agents
 
 if __name__ == "__main__":
     unittest.main()
