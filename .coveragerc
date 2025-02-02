@@ -2,7 +2,6 @@
 omit =
     */mcpi/*
     */agentFramework.py
-    */insultBot.py
     */oracleBot.py
     */start.py
     */tntBot.py
