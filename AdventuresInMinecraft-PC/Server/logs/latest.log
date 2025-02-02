@@ -24,3 +24,22 @@
 [19:16:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
 [19:16:47] [Server thread/INFO]: Done (4,589s)! For help, type "help" or "?"
 [19:17:16] [Server thread/INFO]: mbel[/127.0.0.1:53181] logged in with entity id 19 at ([world]121.57433529904239, 73.0, 258.2614532296541)
+[20:42:36] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[20:42:36] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[20:42:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55128.
+[20:42:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55129.
+[20:42:36] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[20:42:36] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[20:42:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55130.
+[20:42:36] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[20:42:36] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[20:42:36] [Server thread/INFO]: You're doing great![m
+[20:42:44] [Server thread/INFO]: You are amazing just the way you are![m
+[20:42:45] [Netty Server IO #2/INFO]: <mbel> oracle[m
+[20:42:51] [Server thread/INFO]: Keep up the good work![m
+[20:42:54] [Netty Server IO #2/INFO]: <mbel> oraclebot[m
+[20:42:56] [Server thread/INFO]: <oracleBot> Very doubtful.[m
+[20:42:58] [Server thread/INFO]: You're awesome![m
+[20:43:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55128.
+[20:43:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55129.
+[20:43:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55130.
