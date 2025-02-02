@@ -26,5 +26,29 @@ class TestOracleBot(unittest.TestCase):
         # Verifica si se publicó una respuesta en el chat
         assert self.bot.mc.postToChat.called
 
+    def test_no_action_on_empty_chat(self):
+        # Mock de mensajes de chat vacíos
+        self.bot.mc.events.pollChatPosts.return_value = []
+        
+        # Ejecuta la acción del bot
+        self.bot.perform_action()
+        
+        # Verifica que no se publicó ninguna respuesta en el chat
+        assert not self.bot.mc.postToChat.called
+
+    def test_handle_multiple_messages(self):
+        # Mock de múltiples mensajes de chat entrantes
+        mock_message1 = MagicMock()
+        mock_message1.message = "oraclebot will I be happy?"
+        mock_message2 = MagicMock()
+        mock_message2.message = "oraclebot will it rain tomorrow?"
+        self.bot.mc.events.pollChatPosts.return_value = [mock_message1, mock_message2]
+        
+        # Ejecuta la acción del bot
+        self.bot.perform_action()
+        
+        # Verifica si se publicaron respuestas en el chat para ambos mensajes
+        assert self.bot.mc.postToChat.call_count == 2
+
 if __name__ == "__main__":
     unittest.main()
