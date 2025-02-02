@@ -19,14 +19,11 @@ jobs:
       - name: Install dependencies
         run: pip install pytest pytest-cov
 
-      - name: Set PYTHONPATH
-        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/AdventuresInMinecraft-PC/MyAdventures" >> $GITHUB_ENV
-
       - name: List test files
         run: pytest --collect-only
 
       - name: Run tests
-        run: pytest --cov=.
+        run: pytest --cov-branch --cov-report=xml
 
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v5
