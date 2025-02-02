@@ -3,7 +3,7 @@ from unittest.mock import patch, MagicMock
 from insultBot import InsultBot, get_random_message
 
 class TestInsultBot(unittest.TestCase):
-    @patch("insultBot.BaseAgent.__init__", return_value=None)
+    @patch("..insultBot.BaseAgent.__init__", return_value=None)
     def setUp(self, mock_base_init):
         # Configura el bot y la conexión mock de Minecraft
         self.bot = InsultBot()
