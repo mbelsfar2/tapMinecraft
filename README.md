@@ -1,3 +1,5 @@
+[![Run tests and upload coverage](https://github.com/mbelsfar2/tapMinecraft/actions/workflows/test.yml/badge.svg)](https://github.com/mbelsfar2/tapMinecraft/actions/workflows/test.yml)
+
 # Documentación de Agent Framework
 
 ## Introducción
