@@ -9,13 +9,13 @@ class InsultBot(BaseAgent):
     def perform_action(self):
             # Lista de mensajes
         list = [
-            "You're doing great!",
-            "Keep up the good work!",
-            "You're awesome!",
-            "Believe in yourself!",
-            "Stay positive and happy!",
-            "You are amazing just the way you are!",
-            "Keep smiling, the world needs your light!"
+            "¡Eres un desastre!",
+            "¿Así que crees que eres alguien?",
+            "No sabes lo que haces.",
+            "Qué poca vergüenza.",
+            "Eres un completo inútil.",
+            "Nadie te entiende, ni tú mismo.",
+            "No eres más que un estorbo."
         ]
         # Elige un mensaje al azar y lo envía al chat
         message = get_random_message(list)
