@@ -3,6 +3,7 @@
 
 # Documentación de Agent Framework
 
+
 ## Introducción
 
 Este Agent Framework permite a los usuarios crear y gestionar agentes que interactúan con un servidor de Minecraft. Proporciona una clase base para los agentes y un mecanismo para registrarlos y ejecutarlos.
